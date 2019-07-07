@@ -35,11 +35,13 @@ h2{
     border-width: thin;
     border-style: solid;
     border-color: #007e7e;
+    /*border: thin solid #007e7e*/
     width: 200px;
 
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
+    /*padding: 0px 20px 20px 20px; */
 
     margin-left: 20px;
 
@@ -47,4 +49,42 @@ h2{
 
     background-image: url(images/cocktail.gif);
     background-repeat: repeat-x;
+    /*background: white url(images/cocktail.gif) repeat-x; */
+
+    float: right;
+}
+
+#elixirs h2{
+    color: black;
+    line-height: 1em;
+}
+
+#elixirs h3{
+    color: #d12c47;
+}
+
+.cd{
+    font-style: italic;
+}
+
+.artist{
+    font-weight: bold;
+}
+
+#dd:link{
+    color: #007e7e;
+}
+#dd:visited{
+    color: #333333;
+}
+
+#elixirs a:link{
+    color: #007e7e;
+}
+#elixirs a:visited{
+    color: #333333;
+}
+#elixirs a:hover{
+    background-color: #f88396;
+    color: #0d5353;
 }
